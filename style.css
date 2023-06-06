@@ -1,0 +1,81 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    background-color: #042464;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  nav ul li a:hover{
+    color: #5bbbdb;
+  }
+  
+  section {
+    margin: 20px;
+  }
+  
+  #banner {
+    text-align: center;
+  }
+  #banner img{
+    max-width: 100%;
+    height: auto;
+  }
+
+  #amostra-produtos {
+background-color: #ccc;
+border: solid black 1px;
+width: 250px;
+height: 400px;
+display: inline-block;
+justify-content: center;
+align-items: center;
+margin-left: 50px;
+
+  }
+  
+  #products ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #products ul li {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #cart {
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #042464;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
